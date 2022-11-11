@@ -22,7 +22,7 @@ Find the customer group from 8 million data.
 
 # Main logic
 Group by account_id
-~~~~
+~~~
         with temp as (select account_id, min(group_id) as rk from customer_table group by account_id)
         update customer_table set group_id=rk from temp where temp.account_id=customer_table.account_id;
 ~~~
