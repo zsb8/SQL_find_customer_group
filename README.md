@@ -2,7 +2,7 @@
 I did the similar work for the fifth largest bank in Canada.    
 
 # SQL_find_customer_group
-Find the customer group from 8 million data for one of the biggest banks in Canada.
+Identify the customer groups for one of Canada's largest banks from a dataset of 8 million records.
 
 
 
